@@ -1,9 +1,13 @@
 /* page */
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; padding: 0.5in; }
 
 /* table Family*/
-table.Family { font-size: 75%; table-layout: fixed; width: 100%; }
+table.Family { font-size: 75%; table-layout: fixed; width: 40%; }
 table.Family { border-collapse:collapse;; border-spacing: 2px; }
 table.Family th, td { border-width: 1px; padding: 5px; position: relative; text-align: center;; }
 table.Family th, td { border-style: solid; }
@@ -12,7 +16,7 @@ table.Family td { border-color: #1700FE; }
 
 
 /* table Friends*/
-table.Friends { font-size: 100%; table-layout: fixed; width: 100%; }
+table.Friends { font-size: 100%; table-layout: fixed; width: 40%; }
 table.Friends { border-collapse:collapse;; border-spacing:2px; }
 table.Friends th, td { border-width: 2px; padding: 5px; position: relative; text-align: center;; }
 table.Friends th, td { border-style: solid; }
@@ -34,3 +38,8 @@ table.Friends td { border-color: #1700FE; }
   color: black;
   padding: 10px;
 }
+#List {
+  background-color: white;
+  color: black;
+  padding: 40px;
+  text-align: left;

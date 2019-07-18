@@ -1,0 +1,46 @@
+/* page */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; padding: 0.5in; }
+
+/* table Family*/
+table.Family { font-size: 75%; table-layout: fixed; width: 40%; }
+table.Family { border-collapse:collapse;; border-spacing: 2px; }
+table.Family th, td { border-width: 1px; padding: 5px; position: relative; text-align: center;; }
+table.Family th, td { border-style: solid; }
+table.Family th { background: #7CC9FF; border-color: #1700FE; }
+table.Family td { border-color: #1700FE; }
+
+
+/* table Friends*/
+table.Friends { font-size: 100%; table-layout: fixed; width: 40%; }
+table.Friends { border-collapse:collapse;; border-spacing:2px; }
+table.Friends th, td { border-width: 2px; padding: 5px; position: relative; text-align: center;; }
+table.Friends th, td { border-style: solid; }
+table.Friends th { background: #7CC9FF; border-color: #1700FE; }
+table.Friends td { border-color: #1700FE; }
+
+.Places {
+  background-color:#7CC9FF ;
+  color: black;
+  padding: 10px;
+}
+.Countries {
+  background-color: yellow ;
+  color: black;
+  padding: 10px;
+}
+.Beaches {
+  background-color:red ;
+  color: black;
+  padding: 10px;
+}
+#List {
+  background-color: white;
+  color: black;
+  padding: 40px;
+  text-align: left;
+}

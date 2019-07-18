@@ -1,45 +1,118 @@
 /* page */
 @media only screen and (max-width: 600px) {
+  /* line 3, Style.scss */
   body {
     background-color: lightblue;
   }
 }
-html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; padding: 0.5in; }
+/* line 7, Style.scss */
+html {
+  font: 16px/1 'Open Sans', sans-serif;
+  overflow: auto;
+  padding: 0.5in;
+}
 
 /* table Family*/
-table.Family { font-size: 75%; table-layout: fixed; width: 40%; }
-table.Family { border-collapse:collapse;; border-spacing: 2px; }
-table.Family th, td { border-width: 1px; padding: 5px; position: relative; text-align: center;; }
-table.Family th, td { border-style: solid; }
-table.Family th { background: #7CC9FF; border-color: #1700FE; }
-table.Family td { border-color: #1700FE; }
+/* line 10, Style.scss */
+table.Family {
+  font-size: 75%;
+  table-layout: fixed;
+  width: 40%;
+}
 
+/* line 11, Style.scss */
+table.Family {
+  border-collapse: collapse;
+  border-spacing: 2px;
+}
+
+/* line 12, Style.scss */
+table.Family th, td {
+  border-width: 1px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+/* line 13, Style.scss */
+table.Family th, td {
+  border-style: solid;
+}
+
+/* line 14, Style.scss */
+table.Family th {
+  background: #7CC9FF;
+  border-color: #1700FE;
+}
+
+/* line 15, Style.scss */
+table.Family td {
+  border-color: #1700FE;
+}
 
 /* table Friends*/
-table.Friends { font-size: 100%; table-layout: fixed; width: 40%; }
-table.Friends { border-collapse:collapse;; border-spacing:2px; }
-table.Friends th, td { border-width: 2px; padding: 5px; position: relative; text-align: center;; }
-table.Friends th, td { border-style: solid; }
-table.Friends th { background: #7CC9FF; border-color: #1700FE; }
-table.Friends td { border-color: #1700FE; }
+/* line 19, Style.scss */
+table.Friends {
+  font-size: 100%;
+  table-layout: fixed;
+  width: 40%;
+}
 
+/* line 20, Style.scss */
+table.Friends {
+  border-collapse: collapse;
+  border-spacing: 2px;
+}
+
+/* line 21, Style.scss */
+table.Friends th, td {
+  border-width: 2px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+/* line 22, Style.scss */
+table.Friends th, td {
+  border-style: solid;
+}
+
+/* line 23, Style.scss */
+table.Friends th {
+  background: #7CC9FF;
+  border-color: #1700FE;
+}
+
+/* line 24, Style.scss */
+table.Friends td {
+  border-color: #1700FE;
+}
+
+/* line 26, Style.scss */
 .Places {
-  background-color:#7CC9FF ;
+  background-color: #7CC9FF;
   color: black;
   padding: 10px;
 }
+
+/* line 31, Style.scss */
 .Countries {
-  background-color: yellow ;
+  background-color: yellow;
   color: black;
   padding: 10px;
 }
+
+/* line 36, Style.scss */
 .Beaches {
-  background-color:red ;
+  background-color: red;
   color: black;
   padding: 10px;
 }
+
+/* line 41, Style.scss */
 #List {
   background-color: white;
   color: black;
   padding: 40px;
   text-align: left;
+}

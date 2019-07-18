@@ -78,3 +78,30 @@ div {
     background-color: #ff7d7d;
     color: darkred ;
   }
+  .topnav {
+    overflow: hidden;
+    background-color:  #C82333;
+    border-radius: 7px;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  .topnav a:hover {
+    background-color: #80bced;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .topnav a.active {
+    background-color: #0069D9;
+    color: white;
+    border-radius: 5px;
+  }

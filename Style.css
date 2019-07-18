@@ -116,3 +116,48 @@ table.Friends td {
   padding: 40px;
   text-align: left;
 }
+
+/* line 47, Style.scss */
+div {
+  font-size: 18px;
+}
+/* line 49, Style.scss */
+div p {
+  color: darkgreen;
+}
+/* line 52, Style.scss */
+div ul {
+  color: darkred;
+}
+/* line 54, Style.scss */
+div ol {
+  color: black;
+}
+
+/* line 58, Style.scss */
+.success, .warning, .error {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* line 66, Style.scss */
+.success {
+  background-color: #8ff582;
+  color: #4b8244;
+}
+
+/* line 71, Style.scss */
+.warning {
+  background-color: #ffc25e;
+  color: #b3690e;
+}
+
+/* line 76, Style.scss */
+.error {
+  background-color: #ff7d7d;
+  color: darkred;
+}
